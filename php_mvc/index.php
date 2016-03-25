@@ -106,5 +106,5 @@ if(isset($_GET['action'])){
 	}
 }
 else{
-	require("view/error.php");
+	require("view/error.php"); //哈哈哈
 }
