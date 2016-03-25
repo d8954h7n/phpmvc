@@ -6,9 +6,9 @@
 </head>
 
 <body>
-	<script>alert("<?php echo $msg; ?>");</script>
+	<script>alert("<?php echo $msg; ?>");</script> <!--- $msg是其他頁面傳來的訊息 -->
 	<?php 
-	header("refresh:0;$link");
+	header("refresh:0;$link"); 				// $link是其他頁面傳來的網址
 	?>
 </body>
 </html>
